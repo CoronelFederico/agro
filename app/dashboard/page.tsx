@@ -90,6 +90,60 @@ export default function Dashboard() {
             </ResponsiveContainer>
           </div>
         </div>
+        
+
+{/* TABLA */}
+<div className="bg-white p-6 rounded-xl shadow mt-10">
+
+  <h2 className="text-lg font-bold mb-4">
+    Registro de Producción
+  </h2>
+
+  <table className="w-full text-left border-collapse">
+    <thead>
+      <tr className="text-gray-500 text-sm border-b">
+        <th className="py-2">Gallinero</th>
+        <th className="py-2">Gallinas</th>
+        <th className="py-2">Producción</th>
+        <th className="py-2">Estado</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr className="border-b hover:bg-gray-50">
+        <td className="py-2">A1</td>
+        <td>50</td>
+        <td>32 huevos</td>
+        <td className="text-green-600">Activo</td>
+      </tr>
+
+      <tr className="border-b hover:bg-gray-50">
+        <td className="py-2">B2</td>
+        <td>60</td>
+        <td>40 huevos</td>
+        <td className="text-green-600">Activo</td>
+      </tr>
+
+      <tr className="border-b hover:bg-gray-50">
+        <td className="py-2">C3</td>
+        <td>45</td>
+        <td>28 huevos</td>
+        <td className="text-yellow-500">Revisión</td>
+      </tr>
+
+      <tr className="hover:bg-gray-50">
+        <td className="py-2">D4</td>
+        <td>38</td>
+        <td>20 huevos</td>
+        <td className="text-red-500">Inactivo</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
 
       </main>
     </div>

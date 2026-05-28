@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "agro",
+=======
+  "name": "agrolab",
+>>>>>>> e64c3935d637c74377baa5d2dc530f5bb9d82e85
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +13,17 @@
     "lint": "eslint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "next": "16.2.6",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "recharts": "^3.8.1"
+=======
+    "framer-motion": "^12.38.0",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+>>>>>>> e64c3935d637c74377baa5d2dc530f5bb9d82e85
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
